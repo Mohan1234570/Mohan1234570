@@ -6,7 +6,7 @@
 
 - 🌱 I’m currently learning **Node JS, Python, FastAPI**
 
-- 👨‍💻 All of my projects are available at [https://gm-krishna-app.onrender.com/](https://gm-krishna-app.onrender.com/)
+- 👨‍💻 All of my projects are available at https://krishna-portfolio-tft6.onrender.com/
 
 - 📫 How to reach me **mk4400320@gmail.com**
 
