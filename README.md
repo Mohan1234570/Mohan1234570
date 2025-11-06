@@ -2,7 +2,7 @@
 <h3 align="center">A passionate Full Stack developer from India</h3>
 <img align="right" alt="coding" width="400" src="https://github.com/user-attachments/assets/a8167fd8-7025-42b8-911c-c38b765a2027">
 "
-- 🔭 I’m currently working on **Job search Application**
+- 🔭 I’m currently working on **Chatbook Application**
 
 - 🌱 I’m currently learning **Node JS, Python, FastAPI**
 
