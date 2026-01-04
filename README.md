@@ -1,18 +1,46 @@
 <h1 align="center">Hi 👋, I'm Gudumala Mohan Krishna</h1>
-<h3 align="center">A passionate Full Stack developer from India</h3>
+<h3 align="center">
+Full Stack & Backend Engineer | Microservices | Scalable System Design
+</h3>
+
 <img align="right" alt="coding" width="400" src="https://github.com/user-attachments/assets/a8167fd8-7025-42b8-911c-c38b765a2027">
-"
-- 🔭 I’m currently working on **Chatbook Application**
 
-- 🌱 I’m currently learning **Node JS, Python, FastAPI**
+---
 
-- 👨‍💻 All of my projects are available at https://krishna-portfolio-tft6.onrender.com/
+### 👨‍💻 About Me
+- 🔭 Currently building **Chatbook**, an **enterprise-grade microservices application**
+- 🏗️ Strong focus on **designing scalable, maintainable, and secure backend systems**
+- ⚙️ Experienced with **API Gateway, JWT/OAuth2, Redis, WebSockets, and event-driven architectures**
+- 🌱 Learning **Node.js, Python, FastAPI** to expand backend ecosystem skills
+- 👨‍💻 Portfolio: https://krishna-portfolio-tft6.onrender.com/
+- 📫 Reach me at **mk4400320@gmail.com**
 
-- 📫 How to reach me **mk4400320@gmail.com**
+---
 
-### Blogs posts
+### 🚀 Current Project – Chatbook
+- Designed a **Spring Cloud Gateway–based microservices architecture** as a single entry point
+- Implemented **centralized authentication & authorization** using OAuth2, JWT, and JWKS
+- Built **Redis-backed rate limiting** for abuse protection and scalability
+- Developed **real-time notifications and messaging** using WebSockets
+- Followed **enterprise best practices**: stateless services, zero-trust security, and service isolation
+
+---
+
+### 🧠 Core Strengths
+- Scalable & maintainable backend design
+- Microservices & API Gateway architecture
+- Authentication & authorization (JWT, OAuth2)
+- Distributed systems & fault tolerance
+- Database design & transaction consistency
+- Clean code, modular services, and REST APIs
+
+---
+
+### ✍️ Blog Posts
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
+
+---
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
