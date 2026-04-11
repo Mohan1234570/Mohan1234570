@@ -8,7 +8,7 @@ Full Stack & Backend Engineer | Microservices | Scalable System Design
 ---
 
 ### 👨‍💻 About Me
-- 🔭 Currently building **Chatbook**, an **enterprise-grade microservices application**
+- 🔭 Currently building **Mini S3** — a distributed object storage system from scratch that mirrors AWS S3 internals — consistent hashing, 3x async replication via Kafka, and heartbeat-based fault tolerance.
 - 🏗️ Strong focus on **designing scalable, maintainable, and secure backend systems**
 - ⚙️ Experienced with **API Gateway, JWT/OAuth2, Redis, WebSockets, and event-driven architectures**
 - 🌱 Learning **Node.js, Python, FastAPI** to expand backend ecosystem skills
@@ -17,28 +17,130 @@ Full Stack & Backend Engineer | Microservices | Scalable System Design
 
 ---
 
-### 🚀 Current Project – Chatbook
-- Designed a **Spring Cloud Gateway–based microservices architecture** as a single entry point
-- Implemented **centralized authentication & authorization** using OAuth2, JWT, and JWKS
+---
+
+## 🚀 Flagship Project — Mini S3
+
+> A production-inspired distributed object storage system built from scratch — inspired by AWS S3 internals.
+
+---
+| Feature | Status |
+|---|---|
+| Bucket & Object CRUD with ETag validation | ✅ |
+| Multipart upload with resume support | ✅ |
+| Consistent hashing (150 virtual nodes) | ✅ |
+| 3x async replication via Kafka | ✅ |
+| Heartbeat failure detection (5s interval) | ✅ |
+| Automatic failover to healthy replica | ✅ |
+| Redis metadata caching (P99 < 10ms) | 🔄 |
+| Presigned URLs + Object versioning | 🔄 |
+
+**Tech:** Java 17 · Spring Boot · PostgreSQL · Redis · Kafka · Docker · GitHub Actions CI
+
+[![mini-s3](https://img.shields.io/badge/View_Project-mini--s3-181717?style=for-the-badge&logo=github)](https://github.com/Mohan1234570/mini-s3)
+
+---
+
+## 💼 Work Experience
+
+### Software Engineer — Stryv.ai *(Aug 2024 – Present)*
+*Cloud-Native SaaS Platform · Hyderabad, India*
+
+- Designed and delivered scalable backend services using **Python + FastAPI** following clean architecture and design pattern principles
+- Built **RESTful APIs** handling high concurrency — optimised time and space complexity for performance-critical modules
+- Worked extensively with **MySQL, PostgreSQL, Oracle** — optimised queries, indexing, and schema design for performance
+- Implemented **caching and optimisation strategies** that reduced application latency by identifying bottlenecks
+- Participated in full agile cycle — design discussions, code reviews, CI/CD, and production deployments
+
+---
+
+## 🏗️ Other Projects
+
+### Chatbook — Enterprise Microservices Chat Platform
+*Spring Cloud Gateway · OAuth2 · JWT · Redis · WebSockets*
+
+- Designed a **Spring Cloud Gateway–based microservices architecture** as the single entry point
+- Implemented **centralised authentication & authorisation** using OAuth2, JWT, and JWKS
 - Built **Redis-backed rate limiting** for abuse protection and scalability
 - Developed **real-time notifications and messaging** using WebSockets
-- Followed **enterprise best practices**: stateless services, zero-trust security, and service isolation
+- Followed enterprise best practices: stateless services, zero-trust security, service isolation
+
+[![chatbook](https://img.shields.io/badge/View_Project-chatbook-181717?style=for-the-badge&logo=github)](https://github.com/Mohan1234570)
 
 ---
 
-### 🧠 Core Strengths
-- Scalable & maintainable backend design
-- Microservices & API Gateway architecture
-- Authentication & authorization (JWT, OAuth2)
-- Distributed systems & fault tolerance
-- Database design & transaction consistency
-- Clean code, modular services, and REST APIs
+## 🧠 Core Skills
+
+```java
+Languages   →  Java 17, SQL, Python, & JavaScript
+Frameworks  →  Spring Boot, Spring Cloud, Spring Security
+Databases   →  PostgreSQL, MySQL, Oracle, MongoDB, Redis
+Messaging   →  Apache Kafka
+DevOps      →  Docker, GitHub Actions CI/CD, Linux
+Concepts    →  Distributed Systems, Consistent Hashing,
+               Replication, Clean Architecture, Design Patterns,
+               REST API Design, Microservices, System Design
+```
 
 ---
 
-### ✍️ Blog Posts
-<!-- BLOG-POST-LIST:START -->
-<!-- BLOG-POST-LIST:END -->
+## 📊 Distributed Systems Knowledge Built (Mini S3)
+
+| Concept | Applied In |
+|---|---|
+| Consistent hashing + virtual nodes | Object → node routing |
+| CAP theorem trade-offs | Chose eventual consistency for higher write availability |
+| Async event-driven replication | Kafka decouples write from replication |
+| Heartbeat-based failure detection | 5s interval, 3-miss threshold |
+| Metadata / data separation | PostgreSQL for metadata, disk for bytes |
+| Multipart upload + ETag validation | MD5 checksum per part + final assembly |
+
+---
+
+## 🛠️ Tech Stack
+
+<p align="left">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/>
+  <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/>
+  <img src="https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-icon.svg" alt="kafka" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="git" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
+  <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40"/>
+</p>
+
+---
+
+## 📈 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Mohan1234570&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mohan1234570&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Mohan1234570&theme=tokyonight&hide_border=true"/>
+</p>
+
+---
+
+## 📝 Latest Writing
+
+I write about distributed systems, Java backend engineering, and system design on Medium.
+
+[![Medium](https://img.shields.io/badge/Follow_on_Medium-000000?style=for-the-badge&logo=medium&logoColor=white)](https://medium.com/@mk4400320)
+
+---
+
+<p align="center">
+  <i>Open to SDE-1 / Backend Engineer roles at product-based companies and MAANG.</i><br/>
+  <a href="mailto:mk4400320@gmail.com"><b>mk4400320@gmail.com</b></a>
+</p>
 
 ---
 
