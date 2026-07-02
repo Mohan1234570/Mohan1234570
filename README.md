@@ -1,21 +1,37 @@
-<h1 align="center">Hi 👋, I'm Gudumala Mohan Krishna</h1>
+<h1 align="center">Hi 👋, I'm Mohan Krishna Gudumala</h1>
 <h3 align="center">
-Full Stack & Backend Engineer | Microservices | Scalable System Design
+Backend Engineer @ Stryv.ai | Java/Spring Boot + Python/FastAPI | Distributed Systems & Microservices
 </h3>
 
 <img align="right" alt="coding" width="400" src="https://github.com/user-attachments/assets/a8167fd8-7025-42b8-911c-c38b765a2027">
 
+<p align="center">
+  <i>Open to Backend Engineering / SDE roles — Distributed Systems, Microservices, API Design.</i>
+</p>
+
 ---
 
 ### 👨‍💻 About Me
-- 🔭 Currently building **Mini S3** — a distributed object storage system from scratch that mirrors AWS S3 internals — consistent hashing, 3x async replication via Kafka, and heartbeat-based fault tolerance.
-- 🏗️ Strong focus on **designing scalable, maintainable, and secure backend systems**
-- ⚙️ Experienced with **API Gateway, JWT/OAuth2, Redis, WebSockets, and event-driven architectures**
-- 🌱 Learning **Node.js, Python, FastAPI** to expand backend ecosystem skills
-- 👨‍💻 Portfolio: https://krishna-portfolio-tft6.onrender.com/
-- 📫 Reach me at **mk4400320@gmail.com**
+
+I build backend systems that don't fall over under load.
+
+- 💼 Software Engineer at **Stryv.ai**, building REST APIs, auth workflows, and microservices for a cloud-native SaaS platform
+- 🔭 Outside of work, building **Mini S3** — a distributed object storage system from scratch mirroring AWS S3 internals (consistent hashing, async replication via Kafka, heartbeat-based fault tolerance)
+- 🎓 B.Tech in Mechanical Engineering — self-transitioned into software engineering, so I've had to prove myself with working systems rather than a CS pedigree. That's still how I operate.
+- 📫 Reach me at **mk4400320@gmail.com** · Portfolio: [krishna-portfolio-tft6.onrender.com](https://krishna-portfolio-tft6.onrender.com/)
 
 ---
+
+## 💼 Work Experience
+
+### Software Engineer — Stryv.ai *(Aug 2024 – Present)*
+*Cloud-native SaaS Platform · Hyderabad, India*
+
+- Migrated core API functionality from a legacy **.NET** application to **Python/FastAPI**, reducing API response times by **60%**
+- Build and maintain REST APIs across a **4-repository, 400+ endpoint** backend platform using Python/FastAPI and Java/Spring Boot
+- Core contributor to a **Netflix-style session management system**, implementing single-active-session enforcement to prevent concurrent logins and improve account security
+- Implemented authentication workflows using **Azure AD B2C** for secure sign-in and identity management in a multi-tenant SaaS application
+- Collaborated cross-functionally with frontend, product, and QA in an agile environment to ship features and provide production support
 
 ---
 
@@ -23,7 +39,6 @@ Full Stack & Backend Engineer | Microservices | Scalable System Design
 
 > A production-inspired distributed object storage system built from scratch — inspired by AWS S3 internals.
 
----
 | Feature | Status |
 |---|---|
 | Bucket & Object CRUD with ETag validation | ✅ |
@@ -37,54 +52,7 @@ Full Stack & Backend Engineer | Microservices | Scalable System Design
 
 **Tech:** Java 17 · Spring Boot · PostgreSQL · Redis · Kafka · Docker · GitHub Actions CI
 
-[![mini-s3](https://img.shields.io/badge/View_Project-mini--s3-181717?style=for-the-badge&logo=github)](https://github.com/Mohan1234570/mini-s3)
-
----
-
-## 💼 Work Experience
-
-### Software Engineer — Stryv.ai *(Aug 2024 – Present)*
-*Cloud-Native SaaS Platform · Hyderabad, India*
-
-- Designed and delivered scalable backend services using **Python + FastAPI** following clean architecture and design pattern principles
-- Built **RESTful APIs** handling high concurrency — optimised time and space complexity for performance-critical modules
-- Worked extensively with **MySQL, PostgreSQL, Oracle** — optimised queries, indexing, and schema design for performance
-- Implemented **caching and optimisation strategies** that reduced application latency by identifying bottlenecks
-- Participated in full agile cycle — design discussions, code reviews, CI/CD, and production deployments
-
----
-
-## 🏗️ Other Projects
-
-### Chatbook — Enterprise Microservices Chat Platform
-*Spring Cloud Gateway · OAuth2 · JWT · Redis · WebSockets*
-
-- Designed a **Spring Cloud Gateway–based microservices architecture** as the single entry point
-- Implemented **centralised authentication & authorisation** using OAuth2, JWT, and JWKS
-- Built **Redis-backed rate limiting** for abuse protection and scalability
-- Developed **real-time notifications and messaging** using WebSockets
-- Followed enterprise best practices: stateless services, zero-trust security, service isolation
-
-[![chatbook](https://img.shields.io/badge/View_Project-chatbook-181717?style=for-the-badge&logo=github)](https://github.com/Mohan1234570)
-
----
-
-## 🧠 Core Skills
-
-```java
-Languages   →  Java 17, SQL, Python, & JavaScript
-Frameworks  →  Spring Boot, Spring Cloud, Spring Security
-Databases   →  PostgreSQL, MySQL, Oracle, MongoDB, Redis
-Messaging   →  Apache Kafka
-DevOps      →  Docker, GitHub Actions CI/CD, Linux
-Concepts    →  Distributed Systems, Consistent Hashing,
-               Replication, Clean Architecture, Design Patterns,
-               REST API Design, Microservices, System Design
-```
-
----
-
-## 📊 Distributed Systems Knowledge Built (Mini S3)
+**Systems concepts applied:**
 
 | Concept | Applied In |
 |---|---|
@@ -95,6 +63,40 @@ Concepts    →  Distributed Systems, Consistent Hashing,
 | Metadata / data separation | PostgreSQL for metadata, disk for bytes |
 | Multipart upload + ETag validation | MD5 checksum per part + final assembly |
 
+[![mini-s3](https://img.shields.io/badge/View_Project-mini--s3-181717?style=for-the-badge&logo=github)](https://github.com/Mohan1234570/mini-s3)
+
+---
+
+## 🏗️ Other Projects
+
+### Chatbook — Enterprise Microservices Chat Platform
+*Spring Cloud Gateway · OAuth2 · JWT · Redis · WebSockets*
+
+- Designed a **Spring Cloud Gateway**–based microservices architecture as the single entry point
+- Implemented centralised authentication & authorisation using **OAuth2, JWT, and JWKS**
+- Built **Redis-backed rate limiting** for abuse protection and scalability
+- Developed real-time notifications and messaging using **WebSockets**
+- Followed enterprise best practices: stateless services, zero-trust security, service isolation
+
+<!-- Replace with the actual chatbook repo URL -->
+[![chatbook](https://img.shields.io/badge/View_Project-chatbook-181717?style=for-the-badge&logo=github)](https://github.com/Mohan1234570/chatbook)
+
+---
+
+## 🧠 Core Skills
+
+```java
+Languages   →  Java 17, Python, SQL, JavaScript, TypeScript
+Frameworks  →  Spring Boot, Spring Cloud, Spring Security, FastAPI
+Databases   →  PostgreSQL, MySQL, Oracle, MongoDB, Redis
+Messaging   →  Apache Kafka
+Cloud/DevOps→  AWS, Docker, Kubernetes, GitHub Actions CI/CD, Linux
+Auth        →  OAuth2, JWT/JWKS, Azure AD B2C
+Concepts    →  Distributed Systems, Consistent Hashing, Replication,
+               Clean Architecture, Design Patterns, REST API Design,
+               Microservices, System Design
+```
+
 ---
 
 ## 🛠️ Tech Stack
@@ -102,17 +104,19 @@ Concepts    →  Distributed Systems, Consistent Hashing,
 <p align="left">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" />
   <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" />
   <img src="https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-icon.svg" alt="kafka" width="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" />
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40"/>
+  <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" />
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="git" width="40" />
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40"/>
-  <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40"/>
 </p>
+
 ---
 
 ## 📈 GitHub Stats
@@ -136,24 +140,17 @@ I write about distributed systems, Java backend engineering, and system design o
 
 ---
 
-<p align="center">
-  <i>Open to SDE-1 / Backend Engineer roles at product-based companies and MAANG.</i><br/>
-  <a href="mailto:mk4400320@gmail.com"><b>mk4400320@gmail.com</b></a>
-</p>
-
----
-
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://www.linkedin.com/in/mohan-krishna-gudumala-802474248/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/mohan-krishna-gudumala-802474248/" width="40" /></a>
-<a href="https://stackoverflow.com/users/21869969/gmkrishna" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="https://stackoverflow.com/users/21869969/gmkrishna"  width="40" /></a>
-<a href="https://fb.com/https://www.facebook.com/profile.php?id=100018084781981" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="https://www.facebook.com/profile.php?id=100018084781981"  width="40" /></a>
-<a href="https://medium.com/@mk4400320" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@https://medium.com/@mk4400320" width="40" /></a>
-<a href="https://www.youtube.com/c/https://www.youtube.com/@g.mkrishna9218" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="https://www.youtube.com/@g.mkrishna9218"  width="40" /></a>
-<a href="https://www.hackerrank.com/profile/mk4400320" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="https://www.hackerrank.com/profile/mk4400320"  width="40" /></a>
-<a href="https://www.leetcode.com/u/gm-krishna_123/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="https://leetcode.com/u/gm-krishna_123/" width="40" /></a>
-<a href="https://practice.geeksforgeeks.org/leaderboard" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="https://practice.geeksforgeeks.org/leaderboard" width="40" /></a>
+<a href="https://www.linkedin.com/in/mohan-krishna-gudumala-802474248/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" width="40" /></a>
+<a href="https://stackoverflow.com/users/21869969/gmkrishna" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="Stack Overflow" width="40" /></a>
+<a href="https://medium.com/@mk4400320" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="Medium" width="40" /></a>
+<a href="https://www.youtube.com/@g.mkrishna9218" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="YouTube" width="40" /></a>
+<a href="https://www.hackerrank.com/profile/mk4400320" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="HackerRank" width="40" /></a>
+<a href="https://leetcode.com/u/gm-krishna_123/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="LeetCode" width="40" /></a>
+<a href="https://practice.geeksforgeeks.org/leaderboard" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="GeeksforGeeks" width="40" /></a>
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" /> </a> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" /> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" /> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" /> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" /> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" /> </a> <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" /> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" /> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" /> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" /> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" /> </a> <a href="https://kafka.apache.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-icon.svg" alt="kafka" width="40" /> </a> <a href="https://kubernetes.io" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" /> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" /> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" /> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" /> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40"/> </a> <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" /> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" /> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" /> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" /> </a> <a href="https://redis.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" /> </a> <a href="https://spring.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" /> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" /> </a> </p>
+<p align="center">
+  <a href="mailto:mk4400320@gmail.com"><b>mk4400320@gmail.com</b></a>
+</p>
