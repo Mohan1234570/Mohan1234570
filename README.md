@@ -79,7 +79,7 @@ I build backend systems that don't fall over under load.
 - Followed enterprise best practices: stateless services, zero-trust security, service isolation
 
 <!-- Replace with the actual chatbook repo URL -->
-[![chatbook](https://img.shields.io/badge/View_Project-chatbook-181717?style=for-the-badge&logo=github)](https://github.com/Mohan1234570/chatbook)
+[![chatbook](https://img.shields.io/badge/View_Project-chatbook-181717?style=for-the-badge&logo=github)](https://github.com/Mohan1234570/Chatbook-API-Gateway)
 
 ---
 
