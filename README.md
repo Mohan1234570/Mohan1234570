@@ -1,12 +1,12 @@
 <h1 align="center">Hi 👋, I'm Mohan Krishna Gudumala</h1>
 <h3 align="center">
-Backend Engineer @ Stryv.ai | Java/Spring Boot + Python/FastAPI | Distributed Systems & Microservices
+Software Engineer @ Stryv.ai | Java/Python Backend + React.js | Distributed Systems & Microservices
 </h3>
 
 <img align="right" alt="coding" width="400" src="https://github.com/user-attachments/assets/a8167fd8-7025-42b8-911c-c38b765a2027">
 
 <p align="center">
-  <i>Open to Backend Engineering / SDE roles — Distributed Systems, Microservices, API Design.</i>
+  <i>Open to Backend Engineering / Full Stack SDE roles — Distributed Systems, Microservices, API Design.</i>
 </p>
 
 ---
@@ -15,11 +15,18 @@ Backend Engineer @ Stryv.ai | Java/Spring Boot + Python/FastAPI | Distributed Sy
 
 I build backend systems that don't fall over under load.
 
-- 💼 Software Engineer at **Stryv.ai**, building REST APIs, auth workflows, and microservices for a cloud-native SaaS platform
-- 🔭 Outside of work, building **Mini S3** — a distributed object storage system from scratch mirroring AWS S3 internals (consistent hashing, async replication via Kafka, heartbeat-based fault tolerance)
-- 🎓 B.Tech in Mechanical Engineering — self-transitioned into software engineering, so I've had to prove myself with working systems rather than a CS pedigree. That's still how I operate.
-- 📫 Reach me at **mk4400320@gmail.com** · Portfolio: [krishna-portfolio-tft6.onrender.com](https://krishna-portfolio-tft6.onrender.com/)
-
+- 💼 Software Engineer at **Stryv.ai**, building REST APIs, auth workflows, and 
+  microservices for a cloud-native SaaS platform — with hands-on React.js experience 
+  on the frontend
+- 🔭 Outside of work, building **Mini S3** — a distributed object storage system from 
+  scratch mirroring AWS S3 internals (consistent hashing, async replication via Kafka, 
+  heartbeat-based fault tolerance)
+- 🧩 Solved 230+ problems on LeetCode (DP, graphs, sliding window, trees)
+- 🎓 B.Tech in Mechanical Engineering — self-transitioned into software engineering, 
+  so I've had to prove myself with working systems rather than a CS pedigree. 
+  That's still how I operate.
+- 📫 Reach me at **mk4400320@gmail.com** · Portfolio: 
+  [krishna-portfolio-tft6.onrender.com](https://krishna-portfolio-tft6.onrender.com/)
 ---
 
 ## 💼 Work Experience
@@ -86,8 +93,9 @@ I build backend systems that don't fall over under load.
 ## 🧠 Core Skills
 
 ```java
-Languages   →  Java 17, Python, SQL, JavaScript, TypeScript
-Frameworks  →  Spring Boot, Spring Cloud, Spring Security, FastAPI
+Languages   →  Java 17, Python, JavaScript, TypeScript, SQL
+Frontend    →  React.js, JavaScript (ES6+), HTML5, CSS3
+Frameworks  →  Spring Boot, Spring Cloud, Spring Security, FastAPI, React
 Databases   →  PostgreSQL, MySQL, Oracle, MongoDB, Redis
 Messaging   →  Apache Kafka
 Cloud/DevOps→  AWS, Docker, Kubernetes, GitHub Actions CI/CD, Linux
