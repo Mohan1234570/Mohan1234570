@@ -31,7 +31,7 @@ I build backend systems that don't fall over under load.
 
 ## 💼 Work Experience
 
-### Software Engineer — Stryv.ai *(July 2024 – Present)*
+### Software Engineer — Stryv.ai *(June 2024 – Present)*
 *Cloud-native SaaS Platform · Hyderabad, India*
 
 - Migrated core API functionality from a legacy **.NET** application to **Python/FastAPI**, reducing API response times by **60%**
