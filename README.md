@@ -21,7 +21,7 @@ I build backend systems that don't fall over under load.
 - 🔭 Outside of work, building **Mini S3** — a distributed object storage system from 
   scratch mirroring AWS S3 internals (consistent hashing, async replication via Kafka, 
   heartbeat-based fault tolerance)
-- 🧩 Solved 230+ problems on LeetCode (DP, graphs, sliding window, trees)
+- 🧩 Solved 270+ problems on LeetCode (DP, graphs, sliding window, trees)
 - 🎓 B.Tech in Mechanical Engineering — self-transitioned into software engineering, 
   so I've had to prove myself with working systems rather than a CS pedigree. 
   That's still how I operate.
